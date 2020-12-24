@@ -1,0 +1,87 @@
+baseurl = "https://bbshah22.github.io"
+title = "Bhuvni"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+  author = "Bhuvni"
+  info = "cs + econ undergrad"
+  description = "Bhuvni's pixel of the internet"
+  keywords = "blog,developer,personal"
+  #avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  #favicon_32 = "/img/favicon-32x32.png"
+  #favicon_16 = "/img/favicon-16x16.png"
+
+  footercontent = "Enter a text here."
+  hideFooter = false
+  hideCredits = false
+  hideCopyright = false
+  since = 2020
+
+  enableTwemoji = true
+
+  colorsheme = "auto"
+  hidecolorschemetoggle = false
+
+  customCSS = ["css/custom.css"]
+  #customSCSS = ["scss/custom.scss"]
+  #customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 1
+  url = "https://linkedin.com/in/bhuvni-shah/"
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/bbshah22/"
+[[params.social]]
+  name = "Spotify"
+  icon = "fa fa-spotify fa-2x"
+  weight = 3
+  url = "https://open.spotify.com/user/bhuvni.shag?si=7PWIPiehTMO4myArW838ig"
+[[params.social]]
+  name = "School Email"
+  icon = "fa fa-university fa-2x"
+  weight = 4
+  url = "mailto:bshah46@uic.edu"
+[[params.social]]
+  name = "Mail"
+  icon = "fa fa-envelope fa-2x"
+  weight = 5
+  url = "mailto:bhuvni.shah@gmail.com"
+
+# Menu links
+[[menu.main]]
+  name = "thoughts"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "experience"
+  weight = 2
+  url = "experience/"
+[[menu.main]]
+  name = "resume"
+  weight = 3
+  #url = "about/"
+  url = "Bhuvni_Shah_Resume.pdf/"
