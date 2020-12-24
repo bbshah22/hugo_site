@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bhuvni</title>
+    <link>https://bbshah22.github.io/</link>
+    <description>Recent content on Bhuvni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Dec 2020 21:20:24 -0600</lastBuildDate><atom:link href="https://bbshah22.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hello world</title>
+      <link>https://bbshah22.github.io/posts/my-first-post/</link>
+      <pubDate>Sat, 19 Dec 2020 21:20:24 -0600</pubDate>
+      
+      <guid>https://bbshah22.github.io/posts/my-first-post/</guid>
+      <description>hello! this website was created using hugo, the theme is based on hugo-coder, and it is hosted on github pages
+(i know the title is very cheesy i will try to come up with a better one maybe haha)
+I have never been one to create content for/about myself. It&amp;rsquo;s always been projects for school or helping family members or the one of craft. One thing I have noticed though, is that I like documenting important moments and interesting thoughts that I have, whether that is in a journal or in my notes app.</description>
+    </item>
+    
+    <item>
+      <title>my computer science experiences</title>
+      <link>https://bbshah22.github.io/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bbshah22.github.io/experience/</guid>
+      <description>Fairness in Foods Research In 2016 the City of Chicago introduced the Food Inspection Forecasting project, a machine learning model to order food inspections to decrease the spread of food borne illnesses. The model attempts to reorder inspections so that critical violations will be found earlier. The original code base consists of a machine learning model which is written in R.
+Since June of 2020, I have been working with Professor Ian Kash and PhD candidate Shubham Singh on analyzing the fairness of the current machine learning model and refactoring it.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://bbshah22.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bbshah22.github.io/about/</guid>
+      <description>Education University of Illinois at Chicago | Aug 2019 - May 2023 Bachelor of Science in Computer Science and Economics; Minor in Mathematics
+Relevant Course Work:  Artificial Intelligence Data Structures Software Design  Experience Fairness in Foods Research Assistant | Jun 2020 - present
+ Partnered with the City of Chicago to assess the fairness of the machine learning model used by the City to determine the order in which food inspections should be conducted Evaluated geographical and demographical analysis and visualization in R on over 10 years of data Connected Yelp API to gather more data insights regarding pricing and public ratings using Python Prepared technical report with evidence of bias, data visualization, and recommendations to decrease bias in the future  LifeWeb 360 Technology Intern | May 2020 - Sep 2020</description>
+    </item>
+    
+  </channel>
+</rss>

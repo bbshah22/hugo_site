@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Bhuvni">
+    <meta name="description" content="Fairness in Foods Research In 2016 the City of Chicago introduced the Food Inspection Forecasting project, a machine learning model to order food inspections to decrease the spread of food borne illnesses. The model attempts to reorder inspections so that critical violations will be found earlier. The original code base consists of a machine learning model which is written in R.
+Since June of 2020, I have been working with Professor Ian Kash and PhD candidate Shubham Singh on analyzing the fairness of the current machine learning model and refactoring it.">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="my computer science experiences"/>
+<meta name="twitter:description" content="Fairness in Foods Research In 2016 the City of Chicago introduced the Food Inspection Forecasting project, a machine learning model to order food inspections to decrease the spread of food borne illnesses. The model attempts to reorder inspections so that critical violations will be found earlier. The original code base consists of a machine learning model which is written in R.
+Since June of 2020, I have been working with Professor Ian Kash and PhD candidate Shubham Singh on analyzing the fairness of the current machine learning model and refactoring it."/>
+
+    <meta property="og:title" content="my computer science experiences" />
+<meta property="og:description" content="Fairness in Foods Research In 2016 the City of Chicago introduced the Food Inspection Forecasting project, a machine learning model to order food inspections to decrease the spread of food borne illnesses. The model attempts to reorder inspections so that critical violations will be found earlier. The original code base consists of a machine learning model which is written in R.
+Since June of 2020, I have been working with Professor Ian Kash and PhD candidate Shubham Singh on analyzing the fairness of the current machine learning model and refactoring it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bbshah22.github.io/experience/" />
+
+
+
+    <title>
+  my computer science experiences · Bhuvni
+</title>
+
+    
+      <link rel="canonical" href="https://bbshah22.github.io/experience/">
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+      integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8/normalize.min.css">
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.3a030f8d34f6acdee933505ca8a81d7a063de82e0c7116f965bcb3b6a13bd330.css" integrity="sha256-OgMPjTT2rN7pM1BcqKgdegY96C4McRb5ZbyztqE70zA=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+      <script defer src="https://twemoji.maxcdn.com/v/13.0.1/twemoji.min.js"
+        integrity="sha384-5f4X0lBluNY/Ib4VhGx0Pf6iDCF99VGXJIyYy7dDLY5QlEd7Ap0hICSSZA1XYbc4" crossorigin="anonymous"></script>
+    
+
+    <meta name="generator" content="Hugo 0.79.1" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=" twemoji.parse(document.body); "
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Bhuvni
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">thoughts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/experience/">experience</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/files/Bhuvni_Shah_Resume.pdf/">resume</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>my computer science experiences</h1>
+    </header>
+
+    <h3 id="fairness-in-foods-research">Fairness in Foods Research</h3>
+<p>In 2016 the City of Chicago introduced the <a href="https://chicago.github.io/food-inspections-evaluation/">Food Inspection Forecasting project</a>, a machine learning model to order food inspections to decrease the spread of food borne illnesses. The model attempts to reorder inspections so that critical violations will be found earlier. The <a href="https://github.com/Chicago/food-inspections-evaluation">original code base</a> consists of a machine learning model which is written in R.</p>
+<p>Since June of 2020, I have been working with <a href="https://www.cs.uic.edu/~iankash/">Professor Ian Kash</a> and PhD candidate Shubham Singh on analyzing the <strong>fairness of the current machine learning model and refactoring it</strong>. We hope to provide some insight into how models can be structured in operations that heavily rely on human inspectors and opinions.</p>
+<p>I have mainly worked in the geographical analysis using <strong>statistical functions in R and pivot tables</strong>. I used <a href="https://carto.com">CARTO</a> to visually represent the geographical disparities we observed in the data. As we were analyzing the model, we realized that most influential features were the inspector groupings. After chatting with the original creators of the model, we found that the grouping were based on violation rates of each inspector. This was one of the features that was skewing the fairness of the model as well. So, I wrote a model that did not use the food inspectors as a feature.</p>
+<p>Here is a <a href="https://docs.google.com/document/d/1Mhki-Hj8xgeoZ3l12L8nMmxaCng7g8AnVbTZS04p9fw/edit?usp=sharing">one-pager</a> of our report to the city in November 2020! There is more coming soon!</p>
+<h3 id="lifeweb-360-technology-intern">LifeWeb 360 Technology Intern</h3>
+<p>In the summer of 2020, I had to opportunity to intern at <a href="https://www.lifeweb360.com">LifeWeb 360</a>, a Chicago-based 1871 start-up. LifeWeb 360 is a web memorial platform who celebrates the life of those who are not with us and keeps their memories alive. I am inspired every day by depth of the impact LifeWeb360 make on the lives of its users every day. This summer the company was in the process of migrating from their MVP to their first built-out product.</p>
+<p>My main project was to automate the creation of virtual memorial presentations and printed memory books. Most of the MVP was created using <strong>GoogleApp scripts</strong> (which is similar to <strong>JavaScript</strong>), so I had the opportunity build on the code base. Additionally, I was introduced to <strong>front-end development</strong> customizing a tumblr blog to create a group memorial with GIPCC. Being introduced to <strong>product development</strong> through weekly brainstorm and user interview transcript analysis allowed me to contribute to the creation of the audio memory feature.</p>
+<p>One of my future goals, is to a found a start-up and this opportunity to work at an early age company, truly helped me understand what that experience entails. In the weekly meetings I learned a lot positioning and marketing research strategies. Having coffee chats with the 8 other incredibly talented LifeWeb-ers, introduced me to many new topics and career pathways. One of the key takeaways was a reminder to take advantage of my current stage in life and ask as many questions as I can to as many different people as I can. Thank you to the founders for giving me the opportunity to learn and grow at LifeWeb 360.</p>
+<h3 id="teaching-assistant">Teaching Assistant</h3>
+<p>For the Spring and Fall semesters of 2020, I have been teaching assistant for the Computer Science department of my university. I have TA-ed for <a href="https://cs211.class.uic.edu">CS 211: Programming Practicum</a>, which is an introduction to pointers and other C/C++ concepts and <a href="https://catalog.uic.edu/ucat/course-descriptions/cs/">CS 251: Data Structures</a>, which is taught in C++. My duties included instructing labs, holding office hours, and preflighting labs and projects.</p>
+<p>Education is an industry I am very interested in. I hope to work in education or an edutech company or start-up in the future. Being a teaching assistant, especially during covid, has allowed me to understand how different teaching styles create different classroom environments. In many of my classes, I am more fascinated by how certain concepts are taught rather than the actually concepts, so being a TA has allowed to experiment with methods of teaching concepts that I have already learned.</p>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Enter a text here.</p>
+      
+      
+        ©
+        
+        2020
+         Bhuvni 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

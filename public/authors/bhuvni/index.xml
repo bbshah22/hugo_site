@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bhuvni</title>
+    <link>https://bbshah22.github.io/authors/bhuvni/</link>
+    <description>Recent content on Bhuvni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Dec 2020 21:20:24 -0600</lastBuildDate><atom:link href="https://bbshah22.github.io/authors/bhuvni/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hello world</title>
+      <link>https://bbshah22.github.io/posts/my-first-post/</link>
+      <pubDate>Sat, 19 Dec 2020 21:20:24 -0600</pubDate>
+      
+      <guid>https://bbshah22.github.io/posts/my-first-post/</guid>
+      <description>hello! this website was created using hugo, the theme is based on hugo-coder, and it is hosted on github pages
+(i know the title is very cheesy i will try to come up with a better one maybe haha)
+I have never been one to create content for/about myself. It&amp;rsquo;s always been projects for school or helping family members or the one of craft. One thing I have noticed though, is that I like documenting important moments and interesting thoughts that I have, whether that is in a journal or in my notes app.</description>
+    </item>
+    
+  </channel>
+</rss>
