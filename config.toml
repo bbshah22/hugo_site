@@ -1,5 +1,5 @@
 baseurl = "https://bbshah22.github.io"
-title = "Bhuvni"
+title = "Bhuvni Shah"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -84,4 +84,5 @@ disqusShortname = "yourdiscussshortname"
   name = "resume"
   weight = 3
   #url = "about/"
-  url = "files/Bhuvni_Shah_Resume.pdf/"
+  #url = "files/Bhuvni_Shah_Resume.pdf/"
+  url = "https://drive.google.com/file/d/1jPZXfjY6KsGLxkErNBVftp9nhRUz9qF_/view?usp=sharing"
