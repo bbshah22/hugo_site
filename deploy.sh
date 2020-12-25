@@ -1,4 +1,5 @@
 #!/bin/sh
+git config pull.rebase false  # merge (the default strategy)
 
 # If a command fails then the deploy stops
 set -e
@@ -10,6 +11,9 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
+
+# First pull
+git pull
 
 # Add changes to git.
 git add .
