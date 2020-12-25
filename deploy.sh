@@ -1,5 +1,5 @@
 #!/bin/sh
-git config pull.rebase false  # merge (the default strategy)
+
 
 # If a command fails then the deploy stops
 set -e
@@ -27,3 +27,5 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin main
+
+git status
